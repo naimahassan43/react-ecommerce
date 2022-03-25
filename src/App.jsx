@@ -1,12 +1,13 @@
-import Home from "./pages/Home"
+// import Home from "./pages/Home"
+import ProductList from "./pages/ProductList";
 
-const App =() => {
+const App = () => {
   return (
     <>
-      
-      <Home/>
+      {/* <Home /> */}
+      <ProductList />
     </>
   );
-}
+};
 
 export default App;

@@ -6,8 +6,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
-  height: 60px;
-  ${mobile({ height: "50px" })};
+  /* height: 60px; */
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;
@@ -30,8 +29,8 @@ const SearchContainer = styled.div`
   border: 0.5px solid lightgray;
   display: flex;
   align-items: center;
-  margin-left: 16px;
-  padding: 2px;
+  margin-left: 25px;
+  padding: 5px;
 `;
 const Input = styled.input`
   border: none;
@@ -65,8 +64,8 @@ const Navbar = () => {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input />
-            <Search style={{ color: "gray", fontSize: 14 }} />
+            <Input placeholder="Search" />
+            <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Left>
         <Center>
